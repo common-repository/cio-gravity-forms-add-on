@@ -1,0 +1,48 @@
+
+.field-map-table thead {
+    display: none;
+}
+
+@media ( min-width: 783px ) {
+
+    .field-map-table .col-event-prop {
+        max-width: 100px;
+    }
+
+    .field-map-table .col-id-field,
+    .field-map-table .col-field-name,
+    .field-map-table .col-id-field,
+    .field-map-table .col-email-field,
+    .field-map-table .col-data-type {
+        width: 20px;
+    }
+
+    .field-map-table td.col-data-type,
+    .field-map-table td.col-event-prop {
+        padding-right: 15px !important;
+        padding-left: 0;
+    }
+
+    .field-map-table th.col-data-type,
+    .field-map-table th.col-event-prop {
+        padding-right: 15px !important;
+    }
+
+    .field-map-table input[type="text"],
+    .field-map-table select {
+        width: 100%;
+    }
+
+    .field-map-table .field-label {
+        display: none;
+    }
+
+    .field-map-table thead {
+        display: table-header-group;
+    }
+
+    .field-map-table .col-data-type .label {
+        display: none;
+    }
+
+}
